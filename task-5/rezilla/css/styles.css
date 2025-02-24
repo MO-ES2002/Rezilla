@@ -1,0 +1,196 @@
+/* import-css */
+/* #region import */
+
+/* Fonts-Css */
+@import url(./fonts.css);
+
+/* Grid-System */
+@import url(./grid-s.css);
+
+/* #endregion import */
+
+/* ______Abdo-Mahmoud______ */
+/* #region Abdo-Mahmoud */
+
+/* #endregion Abdo-Mahmoud */
+
+/* _____Mohamed-Essam______ */
+/* #region Mohamed-Essam */
+
+.hero-section {
+  border-radius: 0px 0px 800px 800px;
+  background: linear-gradient(
+    180deg,
+    rgba(76, 201, 240, 0) 0%,
+    rgba(67, 97, 238, 0.3) 100%
+  );
+  padding: 90px 15px;
+  margin-bottom: 68px;
+}
+.hero-section .row {
+  align-items: flex-end;
+}
+.hero-section h4 {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2.91px;
+  padding-bottom: 30px;
+}
+.hero-section h1 {
+  font-size: 57px;
+  font-weight: 600;
+  line-height: 65px;
+}
+.hero-section .text-group p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 40px 0;
+}
+.hero-section .imge img {
+  width: 100%;
+}
+.hero-section .imge {
+  position: relative;
+}
+.hero-section .imge svg {
+  position: absolute;
+  top: -40px;
+  right: -16px;
+  z-index: -1;
+}
+.hero-section .form {
+  border-radius: 30px;
+  background: var(--white);
+  box-shadow: 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.hero-section form {
+  padding: 0 15px;
+  justify-content: center;
+  width: 100%;
+  max-width: 451px;
+  padding-bottom: 60px;
+}
+.hero-section .form .text-form {
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 1px solid var(--Text-Colour-4, #aaa);
+}
+.hero-section .form .text-form h3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 38px 0 31px 43px;
+}
+.hero-section form input,
+.hero-section form select {
+  /* appearance: none; */
+  padding: 0 21px;
+  border-radius: 20px;
+  background: rgba(212, 212, 212, 0.2);
+  width: 100%;
+  max-width: 365px;
+  height: 59px;
+  color: rgba(109, 106, 117, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  border: none;
+  gap: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+/* .hero-section form select::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 21px;
+  translate: 0 -50%;
+  display: flex;
+  z-index: 3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='7' viewBox='0 0 15 7' fill='none'%3E%3Cpath d='M8.39114 6.62511C8.05382 6.85182 7.61284 6.85181 7.27552 6.62511L1.2567 2.57997C0.437126 2.02915 0.827037 0.750001 1.81451 0.750001L13.8521 0.75C14.8396 0.75 15.2295 2.02915 14.41 2.57997L8.39114 6.62511Z' fill='%23AAAAAA'/%3E%3C/svg%3E");
+} */
+
+.hero-section form input {
+  margin-top: 50px;
+}
+.hero-section form .room {
+  margin: 30px 0;
+}
+.hero-section form a {
+  margin-top: 22px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  display: flex;
+  gap: 11px;
+  width: 100%;
+  max-width: 366px;
+}
+.hero-section form button {
+  border-radius: 50px;
+  border: 1px solid #bfbdc1;
+  background: var(--Primary-Colour, #3a0ca3);
+  width: 100%;
+  max-width: 366px;
+  height: 60px;
+  margin-top: 64px;
+}
+
+.hero-section .row-div {
+  padding-top: 71px;
+  gap: 30px;
+}
+.hero-section .row-div .text-img {
+  padding-top: 10px;
+  border-radius: 50px;
+  background: var(--white);
+  box-shadow: 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+  width: 360px;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-section .row-div .text-img h4 {
+  font-size: 19px;
+  font-weight: 500;
+  padding-top: 28px;
+}
+
+@media (max-width: 1060px) {
+  .hero-section .row {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 382px) {
+  .hero-section .row-div .text-img {
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
+/* #endregion Mohamed-Essam */
+
+/* _______Ahmed-Gad________ */
+/* #region Ahmed-Gad */
+
+/* #endregion Ahmed-Gad */
+
+/* ______Mohamed-Abdo______ */
+/* #region Mohamed-Abdo */
+
+/* #endregion Mohamed-Abdo */
+
+/* _____Mohamed-Sayed______ */
+/* #region Mohamed-Sayed */
+
+/* #endregion Mohamed-Sayed */
+
+/* _____Mahmoud-Magdy______ */
+/* #region Mahmoud-Magdy */
+
+/* #endregion Mahmoud-Magdy */
